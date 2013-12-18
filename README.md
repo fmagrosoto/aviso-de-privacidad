@@ -49,12 +49,16 @@ la llamada a la función principal:
 
 ## ARCHIVOS
 
-Lista de archivos de la carpeta **AVISO**.
+Lista de archivos del repositorio
+
+* index.html
+* AVISO
+
+Dentro de AVISO:
 
 * aviso.css
 * aviso.js
 * aviso.html
-* index.html
 
 ***
 

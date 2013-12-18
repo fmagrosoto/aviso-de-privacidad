@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='es-MX'>
+	<head>
+		<meta charset='UTF-8' />
+		<title>Aviso de Privacidad</title>
+		<meta name='author' content='Fernando Magrosoto Vásquez' />
+		<meta name='description' content='Módulo para agregar un vínculo hacia el aviso de privacidad de cualquier sitio web.' />
+
+		<!-- Recuerda vincular el estilo y el js del aviso -->
+
+		<!-- Estilos de ésta página -->
+		<style>
+		body {
+			font-size: 100%;
+			font-family: Georgia, serif;
+			background: whitesmoke;
+			color: rgb(51,51,51);
+		}
+		section {
+			width: 600px;
+			margin: 50px auto;
+			background: white;
+			padding: 10px;
+			border: 1px lightgray solid;
+			border-radius: 8px;
+		}
+		section h1 {
+			margin-bottom: 0;
+		}
+		footer {
+			font-size: 80%;
+			border-top: 1px lightgray solid;
+			padding-top: 10px;
+		}
+		footer p {
+			padding: 0;
+			margin: 0;
+		}
+		.cuerpo{
+			margin: 50px 0;
+		}
+		a {
+			color: brown;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		</style>
+	</head>
+	<body>
+		<section>
+			<header>
+				<h1>MÓDULO PARA AVISO DE PRIVACIDAD</h1>
+				<em>Módulo para agregar, de manera muy fácil y rápida, un vínculo hacia el aviso de privacidad de cualquier sitio web.</em>
+			</header>
+
+			<div class='cuerpo'>
+				<!-- Sentencia para abrir el Aviso de Privacidad -->
+				<a onclick='abrirAviso();' href='javascript:void(0);'>Aviso de privacidad</a>
+			</div>
+
+			<footer>
+				<p>&copy;2013 - Fernando Magrosoto V.</p>
+				<p>Todos los Derechos Reservados.</p>
+				<p><a target='_blank' href='http://www.twitter.com/fmagrosoto'>Sígueme en Twitter</a></p>
+			</footer>
+		</section>
+	</body>
+</html>
