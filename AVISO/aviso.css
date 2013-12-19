@@ -60,15 +60,29 @@
 
 /* ===== IFRAME ===== */
 
-body {
+#aviso-privacidad {
 	margin: 0;
 	padding: 0 25px 0 0;
 	background: white;
 	color: rgb(51,51,51);
-	font-size: 14px;
+	font-size: 100%;
 	font-family: sans-serif;
 }
 
-p {
+#aviso-privacidad h1, 
+#aviso-privacidad h2 {
+	text-shadow: 1px 1px 3px gray;
+}
+
+#aviso-privacidad h1 {
+	font-size: 1.5em;
+}
+
+#aviso-privacidad h2 {
+	font-size: 1.25em;
+}
+
+#aviso-privacidad p {
 	text-align: justify;
+	font-size: .875em;
 }
